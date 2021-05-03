@@ -8,6 +8,6 @@ Two app;ications are written in python including docker-compose.yml file which a
 
 # Steps to execute 
  
-git clone https://github.com/uchann2/neueda.git
+git clone https://github.com/Naveen-Banagani/Neueda.git
 docker-compose -f docker-compose.yml up -d
 docker-compose up --build
