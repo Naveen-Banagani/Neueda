@@ -2,8 +2,6 @@ FROM python:3
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN mkdir -p /usr/src/app/input
-RUN mkdir -p /usr/src/app/xmls
-RUN mkdir -p /usr/src/app/sent
 RUN mkdir -p /usr/src/app/config
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
