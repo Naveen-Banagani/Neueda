@@ -1,0 +1,8 @@
+{
+    "receive_host": "127.0.0.1",
+    "receive_port": "5000",
+    "input_files": "./input",
+    "processed_files": "./xmls",
+    "sent_files": "./sent",
+    "secret": "0123456789abcdef"
+}
